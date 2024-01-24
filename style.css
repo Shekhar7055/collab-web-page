@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+}
+.pic{
+    height: 90px;
+    width: 12%;
+}
+.pic img{
+    height: 90px;
+    width: 90px;
+}
+.header{
+    height: 90px;
+    width: 87%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: x-large;
+    color: white;
+}
+.Main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: rgb(63, 18, 225);
+}
+#child1{
+    height: 60vh;
+    width: 56%;
+    border: 2px solid black;
+    box-shadow: inset 10px 10px 10px -10px rgb(0 0 0), inset -10px 10px 10px -10px rgb(0 0 0);
+    padding: 20px;
+    font-size: xx-large;
+    color: rgb(98, 98, 241);
+    background-color: palegoldenrod;
+}
+#child1 h2{
+    color: rgb(5, 63, 5);
+}
+#child2{
+    height: 60vh;
+    width: 34%;
+    border: 2px solid black;
+    box-shadow: inset 10px 10px 10px -10px rgb(0 0 0), inset -10px 10px 10px -10px rgb(0 0 0);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#child2 img{
+    height: 60vh;
+    width: 100%;
+}
+.footer{
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: rgb(9, 3, 56);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border: solid gold ;
+}
+#button{
+    margin-top: 10px;
+    margin-left: 45%;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    font-size: large;
+}
